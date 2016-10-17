@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: block;
+    outline: none;
+}
+
+body{
+
+
+}
+
+
+label{
+    margin: 4% auto;
+
+}
+
+form{
+    width: 60%;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    margin: auto;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*::-webkit-input-placeholder*/
+/*{*/
+    /*font-family:;*/
+/*}*/
+
+/*:-moz-placeholder { !* Firefox 18- *!*/
+    /*font-family:;*/
+/*}*/
+
+/*::-moz-placeholder {  !* Firefox 19+ *!*/
+    /*font-family:;*/
+/*}*/
+
+/*:-ms-input-placeholder {*/
+    /*font-family:;*/
+/*}*/
+
+#send{
+    width: 15%;
+    margin: 4% auto;
+    padding: 2%;
+}

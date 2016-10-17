@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blah blah blah</title>
+    <title>Drrreszcz</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-na-mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600&subset=latin-ext" rel="stylesheet">
 
 </head>
@@ -17,47 +18,27 @@
 
         <nav>
             <ul>
-                <li class="center-block text-center"><a href="#">home</a></li>
-                <li class="center-block text-center"><a href="#">o grze</a></li>
-                <li class="center-block text-center"><a href="#">zasady</a></li>
-                <li class="center-block text-center"><a href="#">autorzy</a></li>
-                <!--<li class="log-nav"><a href="#">zaloguj się</a></li>-->
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">o grze</a></li>
+                <li><a href="rules.html">zasady</a></li>
+                <li><a href="authors.html">autorzy</a></li>
+                <li class="hidden"><a href="login.html">zaloguj się</a></li>
             </ul>
         </nav>
         <div class="container">
-            <div class="about-section">
-                <h2>O grze</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus bibendum fringilla. Nulla facilisi. Nunc suscipit arcu mauris,
-                    egestas ultrices erat condimentum in. Fusce maximus porta risus vulputate imperdiet. Mauris id sapien a eros auctor ultricies at vel mi.
-                    Vivamus laoreet ipsum vitae magna tempor, nec auctor augue maximus. Mauris eu nulla rutrum, mollis augue in, maximus ipsum. Aenean sed nisi malesuada,
-                    congue odio nec, dictum turpis. Fusce pharetra aliquet eros. Suspendisse eget semper turpis. Fusce eget lobortis est.
-                    Donec bibendum ex sit amet ipsum condimentum finibus. Etiam leo neque, fringilla a lobortis sed, luctus vitae felis. Praesent blandit et nulla
-                    nec gravida. Pellentesque euismod, massa in rhoncus luctus, tellus leo aliquam justo, non tristique dolor orci non justo. Sed tincidunt,
-                    enim eu consectetur semper, dolor lorem posuere diam, nec sagittis sem purus non enim. Suspendisse potenti. Nulla ac tristique turpis,
-                    et ultricies lorem. Integer eget ultrices velit, elementum finibus tortor. Cras dui ante, ultricies eu vestibulum ut, condimentum quis lectus.
-                    Curabitur vel leo gravida tellus semper molestie eget interdum diam.
-                </p>
-            </div>
 
-            <div class="log-section">
-                <h3>Zaloguj się</h3>
-                <form name="login">
-                    <input class="log-name" type="email" value="" placeholder="e-mail" id="username" />
-                    <input class="log-password" type="password" value="" placeholder="hasło" id="password" />
-                    <button class="btn-login text-center">Zaloguj</button>
-                    <a href="#">Zarejestruj się!</a>
-                </form>
-            </div>
 
-            <div class="col-md-9 news-section">
-                <h2 class="text-center news-header">Aktualności</h2>
-                <h4 class="text-center">Aktualność1</h4>
+
+            <div class="news-section">
+                <h2 class="news-header">Aktualności</h2>
+                <h4>Aktualność1</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus bibendum fringilla. Nulla facilisi. Nunc suscipit arcu mauris,
                     ultrices erat condimentum in. Fusce maximus porta risus vulputate imperdiet. Mauris id sapien a eros auctor ultricies at vel mi.
                     Vivamus laoreet ipsum vitae magna tempor, nec auctor augue maximus.
                 </p>
+                <hr>
+
 
                 <h4 class="text-center">Aktualność2</h4>
                 <p>
@@ -65,6 +46,7 @@
                     egestas ultrices erat condimentum in. Fusce maximus porta risus vulputate imperdiet. Mauris id sapien a eros auctor ultricies at vel mi.
                     laoreet ipsum vitae magna tempor, nec auctor augue maximus.
                 </p>
+                <hr>
 
                 <h4 class="text-center">Aktualność3</h4>
                 <p>
@@ -72,11 +54,37 @@
                     egestas ultrices erat condimentum in. Fusce maximus porta risus vulputate imperdiet. Mauris id sapien a eros auctor ultricies at vel mi.
                     Vivamus laoreet ipsum vitae magna tempor, nec auctor augue maximus.
                 </p>
+                <hr>
             </div>
+            <div class="sidebar">
+            <div class="log-section">
+                <h3>Zaloguj się</h3>
+                <form name="login">
+                    <input class="log-name" type="email" value="" placeholder="e-mail" id="username" />
+                    <input class="log-password" type="password" value="" placeholder="hasło" id="password" />
+                    <button class="btn-login text-center">Zaloguj</button>
+                    <p>Nie masz konta?</p>
+                    <a href="#">Zarejestruj się!</a>
+                </form>
+            </div>
+
+            <div class="info">
+                <h3>Informacje</h3>
+                <p>Bears are mammals of the family Ursidae. Bears are classified as caniforms, or doglike carnivorans, with the pinnipeds being their closest living relatives.</p>
+            </div>
+
+            <div class="socials">
+                <h3>Facebook</h3>
+                <p>Bears are mammals of the family Ursidae. Bears are classified as caniforms, or doglike carnivorans, with the pinnipeds being their closest living relatives. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout the Northern Hemisphere and partially in the Southern Hemisphere. Bears are found on the continents of North America, South America, Europe, and Asia.</p>
+
+            </div>
+                </div>
         </div>
 
         <footer>
-            <p>&copy Giant's Castle</p>
+                <p class="first">2016 <br>
+                <a href="https://github.com/GiantsCastle" target="_blank">&copy Giant&#8217;s Castle</a>
+                </p>
         </footer>
 
     </div>
