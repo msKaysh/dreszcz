@@ -1,19 +1,27 @@
 /*- - - - - - - - - - LOG IN - - - - - - - - - - */
+
+
 .login{
     width: 100%;
     margin: 0 auto;
     background: rgb(19, 19, 21);
 }
 
+h3{
+    font-size: 2.8rem;
+}
 
-
+.log-name,
+.log-password,
+.btn-login{
+    font-size: 2.2rem;
+}
 
 /*- - - - - - - - MEDIA - - - - - - - - - */
 @media (max-width: 930px){
     html{
-        font-size: 50%;
+        font-size: 60%;
     }
-
 
     nav a{
         font-size: 2rem;
@@ -26,6 +34,9 @@
 }
 
 @media (max-width: 680px){
+    .wrapper{
+        width: 100%;
+    }
 
     nav li{
         display: block;
@@ -46,5 +57,7 @@
 }
 
 @media (max-width: 580px){
-
+    .wrapper{
+        width: 100%;
+    }
 }
