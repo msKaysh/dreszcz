@@ -1,0 +1,50 @@
+/*- - - - - - - - - - LOG IN - - - - - - - - - - */
+.login{
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(19, 19, 21);
+}
+
+
+
+
+/*- - - - - - - - MEDIA - - - - - - - - - */
+@media (max-width: 930px){
+    html{
+        font-size: 50%;
+    }
+
+
+    nav a{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width: 680px){
+
+    nav li{
+        display: block;
+    }
+
+    nav .hidden{
+        display: block;
+    }
+
+    .news-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sidebar{
+        display: none;
+    }
+}
+
+@media (max-width: 580px){
+
+}
